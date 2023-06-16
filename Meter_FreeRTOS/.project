@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Meter_FreeRTOS</name>
+	<comment></comment>
+	<projects>
+		<project>Meter_FreeRTOS</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>FreeRTOS_Source</name>
+			<type>2</type>
+			<location>D:/Engineering/SWIFT-ACT/FreeRTOS/Tools/FreeRTOSv10.2.1_191129/FreeRTOS/Source</location>
+		</link>
+	</linkedResources>
+	<variableList>
+		<variable>
+			<name>FREERTOS_ROOT</name>
+			<value>file:/D:/Engineering/SWIFT-ACT/FreeRTOS/Tools/FreeRTOSv10.2.1_191129</value>
+		</variable>
+		<variable>
+			<name>hobba</name>
+			<value>$%7BFREERTOS_ROOT%7D</value>
+		</variable>
+	</variableList>
+</projectDescription>
